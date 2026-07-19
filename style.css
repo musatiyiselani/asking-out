@@ -6,17 +6,70 @@ body {
     background-color: rgb(240, 249, 238);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 1%;
+}
+
 
 #page1 {
-    /* border: 1px solid green; /* */
+    /*border: 1px solid blue; /* */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-self: center;
     color: rgb(30, 42, 212);
     background-color: rgb(240, 250, 240);
+    width: min(425px, 100vw);
 }
+
+#page1 img {
+    width: auto;
+    height: 60%;
+}
+
+#gif1 {
+    /*border: 1px solid green; /* */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 63.33vh;
+    width: min(425px, 100vw);
+}
+
+
+#btns {
+    /*border: 1px solid green; /* */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31.67vh;
+    width: 100vw;
+    max-width: 425px;
+    position: relative;
+}
+
+#ybtn,
+#nbtn {
+    border: 1px solid rgb(245, 224, 80);
+    background-color: rgb(245, 224, 80);
+    color: rgb(30, 30, 123);
+    transition: all 1s;
+}
+
+
+#ybtn  { 
+    z-index: 2;
+}
+
+
 
 
 
@@ -25,16 +78,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: rgb(30, 42, 212);
     background-color: rgb(240, 250, 240);
 }
 
 
 
-#page1 img {
-    width: auto;
-    height: 60%;
-}
+
 
 #page2 img {
     width: auto;
@@ -42,16 +93,16 @@ body {
 }
 
 
-#gif1,
+
+
 #gif2 {
     /* border: 1px solid green; /* */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
     height: 63.33vh;
-    width: 80vw;
-    max-width: 400px;
+    width: min(400px, 80vw);
 }
 
 #gif3 {
@@ -65,28 +116,6 @@ body {
 }
 
 
-#btns {
-    /* border: 1px solid green; /* */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 31.67vh;
-    width: 100vw;
-    max-width: 400px;
-    position: relative;
-}
 
-#ybtn,
-#nbtn {
-    border: 1px solid rgb(245, 224, 80);
-    background-color: rgb(245, 224, 80);
-    color: rgb(30, 30, 123);
-    transition: right 1s, 1s;
-}
-
-
-#ybtn  { 
-    z-index: 2;
-}
 
 

@@ -18,7 +18,7 @@ function moveAndGrow() {
 
     if(count === 1) {
         nbtn.style.position = "absolute";
-        nbtn.style.right = "30.5%";
+        nbtn.style.right = "31.5%";
         ybtn.style.transform += `scale(${1.1})`;
         nbtn.innerHTML = "Really?"
     }
@@ -30,13 +30,13 @@ function moveAndGrow() {
     }
     else if(count === 3) {
         nbtn.style.position = "absolute";
-        nbtn.style.right = "9%";
+        nbtn.style.right = "10%";
         ybtn.style.transform += `scale(${1.3})`;
         nbtn.innerHTML = "Please, it will be fun!"
     }
     else if(count === 4) {
         nbtn.style.position = "absolute";
-        nbtn.style.right = "0%";
+        nbtn.style.right = "2%";
         ybtn.style.transform += `scale(${1.4})`;
         nbtn.innerHTML = "Are you serious? Really!"
     }
