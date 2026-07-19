@@ -13,12 +13,14 @@ let count = 0;
 const song = document.getElementById("song");
 
 function startMusic() {
+    if (!song.paused) return; // Already playing
+
     song.currentTime = 4;
     song.play().catch(err => console.log(err));
 }
 
-ybtn.addEventListener("click", startMusic, { once: true });
-nbtn.addEventListener("click", startMusic, { once: true });
+ybtn.addEventListener("click", startMusic);
+nbtn.addEventListener("click", startMusic);
 
 
 function moveAndGrow() {
