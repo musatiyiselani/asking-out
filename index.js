@@ -10,6 +10,17 @@ let nbtn = document.getElementById("nbtn");
 let text = document.getElementById("text");
 let count = 0;
 
+const song = document.getElementById("song");
+song.volume = 0.05;
+
+function startMusic() {
+    song.currentTime = 4;
+    song.play().catch(err => console.log(err));
+}
+
+ybtn.addEventListener("click", startMusic, { once: true });
+nbtn.addEventListener("click", startMusic, { once: true });
+
 
 function moveAndGrow() {
 
@@ -75,6 +86,4 @@ function swap() {
     confetti();
 }
 
-const song = document.getElementById("song");
-song.volume = 0.05;
-song.currentTime = 4;
+
