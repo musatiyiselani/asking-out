@@ -11,7 +11,7 @@ let text = document.getElementById("text");
 let count = 0;
 
 const song = document.getElementById("song");
-song.volume = 0.05;
+song.volume = 0.5;
 
 function startMusic() {
     song.currentTime = 4;
