@@ -46,7 +46,7 @@ function moveAndGrow() {
     }
     else if(count === 4) {
         nbtn.style.position = "absolute";
-        nbtn.style.right = "2%";
+        nbtn.style.right = "0%";
         ybtn.style.transform += `scale(${1.4})`;
         nbtn.innerHTML = "Baby pleeeeaaaaaaaaaase😭!"
     }
