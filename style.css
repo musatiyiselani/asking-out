@@ -3,8 +3,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(240, 249, 238);
+    background-color: #f0f9ee;
 }
+
 
 h1,
 h2,
@@ -29,10 +30,12 @@ h5 {
     width: min(425px, 100vw);
 }
 
+
 #page1 img {
     width: auto;
     height: 60%;
 }
+
 
 #gif1 {
     /*border: 1px solid green; /* */
@@ -56,6 +59,7 @@ h5 {
     position: relative;
 }
 
+
 #ybtn,
 #nbtn {
     border: 1px solid rgb(245, 224, 80);
@@ -70,8 +74,10 @@ h5 {
 }
 
 
-
-
+#nbtn {
+    position: absolute;
+    right: 38%;
+}
 
 
 #page2 {
@@ -84,15 +90,10 @@ h5 {
 }
 
 
-
-
-
 #page2 img {
     width: auto;
     height: 50%;
 }
-
-
 
 
 #gif2 {
@@ -105,6 +106,7 @@ h5 {
     width: min(400px, 80vw);
 }
 
+
 #gif3 {
     /* border: 1px solid green; /* */
     display: flex;
@@ -114,8 +116,4 @@ h5 {
     width: 100vw;
     max-width: 400px;
 }
-
-
-
-
 

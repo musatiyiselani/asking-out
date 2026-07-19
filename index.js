@@ -8,7 +8,6 @@ let ybtn = document.getElementById("ybtn");
 let nbtn = document.getElementById("nbtn");
 
 let text = document.getElementById("text");
-
 let count = 0;
 
 
@@ -30,33 +29,33 @@ function moveAndGrow() {
     }
     else if(count === 3) {
         nbtn.style.position = "absolute";
-        nbtn.style.right = "10%";
+        nbtn.style.right = "0%";
         ybtn.style.transform += `scale(${1.3})`;
-        nbtn.innerHTML = "Please, it will be fun!"
+        nbtn.innerHTML = "Please, babe it will be fun🥹!"
     }
     else if(count === 4) {
         nbtn.style.position = "absolute";
         nbtn.style.right = "2%";
         ybtn.style.transform += `scale(${1.4})`;
-        nbtn.innerHTML = "Are you serious? Really!"
+        nbtn.innerHTML = "Baby pleeeeaaaaaaaaaase😭!"
     }
     else if(count === 5) {
         nbtn.style.position = "absolute";
         nbtn.style.right = "0%";
         ybtn.style.transform += `scale(${1.5})`;
-        nbtn.innerHTML = "I promise you will love it."
+        nbtn.innerHTML = "I promise you will love it🥺."
     }
     else if(count === 6) {
         nbtn.style.position = "absolute";
         nbtn.style.right = "0%";
         ybtn.style.transform += `scale(${1.6})`;
-        nbtn.innerHTML = "Come on! you will not regret."
+        nbtn.innerHTML = "You will not regret, Babe🥺"
     }
     else if(count === 7) {
         nbtn.style.position = "absolute";
         nbtn.style.right = "0%";
         ybtn.style.transform += `scale(${1.7})`;
-        nbtn.innerHTML = "PLEASE, PLEASE, PLEASE!"
+        nbtn.innerHTML = "PLEASE, PLEASE, PLEASE🥹!"
     }
     else if(count === 8) {
         //nbtn.style.transform += `translateX(${120}px)`;
@@ -75,3 +74,7 @@ function swap() {
     page1.style.display = "none";
     confetti();
 }
+
+const song = document.getElementById("song");
+song.volume = 0.05;
+song.currentTime = 4;
