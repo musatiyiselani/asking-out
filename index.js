@@ -60,7 +60,7 @@ function moveAndGrow() {
     }
     else if(count === 8) {
         //nbtn.style.transform += `translateX(${120}px)`;
-        ybtn.style.transform += `scale(${1.17})`;
+        ybtn.style.transform += `scale(${1.25})`;
     }
     
 }
