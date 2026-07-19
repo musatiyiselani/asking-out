@@ -17,55 +17,50 @@ function moveAndGrow() {
     count++;
 
     if(count === 1) {
-        nbtn.style.transform += `translateX(${4}px)`;
+        nbtn.style.position = "absolute";
+        nbtn.style.right = "15.75vw";
         ybtn.style.transform += `scale(${1.1})`;
-        //ybtn.style.transform += `translateY(${1}px)`;
         nbtn.innerHTML = "Really?"
     }
     else if(count === 2) {
-        nbtn.style.transform += `translateX(${8}px)`;
+        nbtn.style.position = "absolute";
+        nbtn.style.right = "10vw";
         ybtn.style.transform += `scale(${1.2})`;
-        ybtn.style.transform += `translateY(${1}px)`;
-        ybtn.style.transform += `translateX(${6}px)`;
         nbtn.innerHTML = "Are you sure?"
     }
     else if(count === 3) {
-        nbtn.style.transform += `translateX(${10}px)`;
+        nbtn.style.position = "absolute";
+        nbtn.style.right = "4vw";
         ybtn.style.transform += `scale(${1.3})`;
-       // ybtn.style.transform += `translateY(${1}px)`;
-       nbtn.innerHTML = "Please, it will be fun!"
+        nbtn.innerHTML = "Please, it will be fun!"
     }
     else if(count === 4) {
-        nbtn.style.transform += `translateX(${28}px)`;
+        nbtn.style.position = "absolute";
+        nbtn.style.right = "0vw";
         ybtn.style.transform += `scale(${1.4})`;
-        ybtn.style.transform += `translateY(${1}px)`;
-        ybtn.style.transform += `translateX(${6}px)`;
-        nbtn.innerHTML = "Are you serious?"
+        nbtn.innerHTML = "Are you serious? Really!"
     }
     else if(count === 5) {
-        nbtn.style.transform += `translateX(${22}px)`;
+        nbtn.style.position = "absolute";
+        nbtn.style.right = "0vw";
         ybtn.style.transform += `scale(${1.5})`;
-        //ybtn.style.transform += `translateY(${1}px)`;
         nbtn.innerHTML = "I promise you will love it."
     }
     else if(count === 6) {
-        nbtn.style.transform += `translateX(${68}px)`;
+        nbtn.style.position = "absolute";
+        nbtn.style.right = "0vw";
         ybtn.style.transform += `scale(${1.6})`;
-        ybtn.style.transform += `translateY(${1}px)`;
-        ybtn.style.transform += `translateX(${6}px)`;
         nbtn.innerHTML = "Come on! you will not regret."
     }
     else if(count === 7) {
-        nbtn.style.transform += `translateX(${70}px)`;
+        nbtn.style.position = "absolute";
+        nbtn.style.right = "0vw";
         ybtn.style.transform += `scale(${1.7})`;
-       // ybtn.style.transform += `translateY(${1}px)`;
-       nbtn.innerHTML = "PLEASE, PLEASE, PLEASE!"
+        nbtn.innerHTML = "PLEASE, PLEASE, PLEASE!"
     }
     else if(count === 8) {
-        nbtn.style.transform += `translateX(${120}px)`;
-        ybtn.style.transform += `scale(${1.4})`;
-        ybtn.style.transform += `translateX(${2.5}px)`;
-        ybtn.style.transform += `translateY(${2}px)`;
+        //nbtn.style.transform += `translateX(${120}px)`;
+        ybtn.style.transform += `scale(${1.17})`;
     }
     
 }
