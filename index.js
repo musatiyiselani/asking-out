@@ -15,7 +15,7 @@ function startMusic() {
     if (!song.paused) return; // Already playing
 
     song.currentTime = 4;
-    //song.play().catch(err => console.log(err));
+    song.play().catch(err => console.log(err));
     song.volume = 0.75;
 }
 
