@@ -15,7 +15,6 @@ h5 {
     align-content: center;
     text-align: center;
     align-items: center;
-    margin: 1%;
 }
 
 
@@ -33,7 +32,7 @@ h5 {
 
 #page1 img {
     width: auto;
-    height: 60%;
+    height: 70%;
 }
 
 
@@ -43,7 +42,7 @@ h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 63.33vh;
+    height: 57.5vh;
     width: min(425px, 100vw);
 }
 
@@ -53,7 +52,7 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 31.67vh;
+    height: 37.5vh;
     width: 100vw;
     max-width: 425px;
     position: relative;
@@ -62,7 +61,8 @@ h5 {
 
 #ybtn,
 #nbtn {
-    border: 1px solid pink;
+    border: 1px solid pink; /* */
+    border-radius: 5%;
     background-color: pink;
     color: rgb(30, 30, 123);
     transition: all 1s;
@@ -71,12 +71,16 @@ h5 {
 
 #ybtn  { 
     z-index: 2;
+    position: absolute;
+    left: 41.5%;
+    top: 20%;
 }
 
 
 #nbtn {
     position: absolute;
-    right: 38%;
+    right: 41.5%;
+    top: 20%;
 }
 
 
